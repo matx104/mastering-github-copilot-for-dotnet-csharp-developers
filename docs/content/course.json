@@ -1,0 +1,41 @@
+{
+  "course": {
+    "title": "Mastering GitHub Copilot for C#/.NET",
+    "eyebrow": "QALAM presents · Microsoft's curriculum, digested",
+    "subtitle": "Six lessons from GitHub itself to a C# mini game and cloud deploys.",
+    "source_name": "Microsoft (Mastering GitHub Copilot for C#/.NET Developers)",
+    "source_url": "https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+    "fork_url": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers",
+    "credit_line": "Curriculum © Microsoft · MIT License · digested with credit, shared free.",
+    "after_title": "After the course",
+    "after_note": "The paired-programming petal continues with JavaScript, Python, CLI, agents and MCP.",
+    "og_url": "https://matx104.github.io/mastering-github-copilot-for-dotnet-csharp-developers/",
+    "og_image": "img/og.png"
+  },
+  "modules": [
+    {
+      "id": "m1", "num": 1, "title": "The course",
+      "blurb": "GitHub to Codespaces to Copilot to a shipped mini game.",
+      "lessons": [
+        {"id": "01", "title": "Introduction to GitHub", "objective": "Repos, branches, commits, PRs — in an hour.", "minutes": 45,
+         "href": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/01-Introduction-to-GitHub/README.md",
+         "keys": ["Repository = project + history + collaboration contract", "Branch → commit → PR → review → merge: the loop", "The README is the front door; write for strangers"]},
+        {"id": "02", "title": "Introduction to GitHub Codespaces", "objective": "Cloud dev environments.", "minutes": 30,
+         "href": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/02-Introduction-to-GitHub-Codespaces/README.md",
+         "keys": ["Codespaces: VS Code in the browser, preconfigured by devcontainer", "Clone-free, install-free, machine-irrelevant development", "Custom images make the team environment reproducible"]},
+        {"id": "03", "title": "Introduction to GitHub Copilot", "objective": "Autocomplete that actually codes.", "minutes": 30,
+         "href": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/README.md",
+         "keys": ["Ghost text is the product: type intent, accept implementation", "Comments as prompts — the highest-leverage habit", "Reject freely; the second suggestion is often the one"]},
+        {"id": "04", "title": "Using GitHub Copilot with C#", "objective": "Prompting for useful C# suggestions.", "minutes": 60,
+         "href": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/04-Using-GitHub-Copilot-with-CSharp/README.md",
+         "keys": ["Craft prompts like tickets: context, language, framework, shape", "Improve a Minimal API one endpoint-prompt at a time", "Generated C# still gets code review — always"]},
+        {"id": "05", "title": "Creating a mini game with Copilot", "objective": "Gaming logic via prompts.", "minutes": 75,
+         "href": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/05-Creating-Mini-Game-with-GitHub-Copilot/README.md",
+         "keys": ["Game rules are precise specs — ideal prompt material", "Build the loop, then the rules, then the polish", "A shipped tiny game teaches more than an unshipped big one"]},
+        {"id": "06", "title": "Copilot for Azure — deploy to the cloud", "objective": "From repo to running URL.", "minutes": 45,
+         "href": "https://github.com/matx104/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/README.md",
+         "keys": ["Ask Copilot for Azure to plan the deployment before clicking", "Right-size the SKU: dev toys shouldn't run prod bills", "Deploy → verify → tear down: the learning loop"]}
+      ]
+    }
+  ]
+}
